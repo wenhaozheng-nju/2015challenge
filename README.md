@@ -10,7 +10,7 @@ challenge
 ### Votes.xml 里的voteTypeId没看懂什么意思
 #### 大致就是投的票是以什么形式投的，有可能是版主自己投的，也有可能是喜欢，或是赞成票，反对票之类的。
 
-|| *voteType* || *count* ||
+| | *voteType* | | *count* | |
 
 
 || AcceptedByOriginator || 4778553 ||
