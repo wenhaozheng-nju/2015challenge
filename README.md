@@ -8,9 +8,10 @@ challenge
 ## 问题
 ### Tags.xml 里的ExcerptPostId和WikiPostId是什么
 ### Votes.xml 里的voteTypeId没看懂什么意思
-   | 大致就是投的票是以什么形式投的，有可能是版主自己投的，也有可能是喜欢，或是赞成票，反对票之类的。
+>大致就是投的票是以什么形式投的，有可能是版主自己投的，也有可能是喜欢，或是赞成票，反对票之类的。
 
 |  *voteType*  |  *count*  |
+| ------------ | ---------- | 
 | AcceptedByOriginator | 4778553 |
 | UpMod  | 48877802 |
 | DownMod  | 5245532 |
