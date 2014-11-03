@@ -7,6 +7,7 @@ challenge
 
 ## 问题
 >Tags.xml 里的ExcerptPostId和WikiPostId是什么
+>
 >Votes.xml 里的voteTypeId没看懂什么意思
 >>大致就是投的票是以什么形式投的，有可能是版主自己投的，也有可能是喜欢，或是赞成票，反对票之类的。
 
@@ -28,9 +29,9 @@ challenge
 | ApproveEditSuggestion |  1249217 | 
 
 
->数据集太大，大约20多G，不过有一个 [网站]("http://data.stackexchange.com/stackoverflow/query/edit/242001#resultSets" "stackexchange") 可以用来查询
+>数据集太大，大约20多G，不过有一个[网站](http://data.stackexchange.com/stackoverflow/query/edit/242001#resultSets "stackexchange")可以在线用来查询相应的信息
 >>可以用sql语句在线查询，或是编程采用json的方式
->>>api的 [文档]("https://api.stackexchange.com/docs")
+>>>api的[文档](https://api.stackexchange.com/docs)
 
 
 
