@@ -1,8 +1,43 @@
 challenge
 ============
 
-## 数据集
-#### 主要还是overflow上的，所谓的多信息是针对一条问题上具有的多重属性，例如票数、代码等等，这些信息必然是相关联的。
+## 数据集总览
+#### 所提供的数据其实是stack overflow整个网站的后台的数据库，每一个在网站上能够观察到的细节均可在提供的数据里查找到。
+
+## 数据构成
+#### 是以数据库的方式进行组织数据的，每一个压缩包代表了一张表，压缩包里只有一个xml文件，是把表中的每一条记录以xml的方式进行呈现，主要有以下几张表：
+
+1. Badges.xml 类似成就系统
+2. Comments.xml 评论表
+3. Posts.xml 每个问题或是解答都是一个Post，甚至关于标签的说明也是一个Post
+4. PostHistory.xml stack overflow把很多信息都看成是一个Post，每次Post的更改都会在PostHistory表上有所记录，其PostHistoryTypeId和VoteTypeId有关系
+5. Postlinks.xml 
+6. users.xml 用户表
+7. votes.xml 投票记录表
+
+## 有价值的表项
+>Badges.xml
+>>UserId:标识了某用户获得了该成就
+
+>Comments.xml
+>>Score:得分，标识了一条评论的分数，体现该评论的价值，但是不知道这个分数是怎么计算的，找不到给评论投票的地方啊……
+
+>Posts.xml
+>>Score:UpMod和DownMod数目之差
+>>viewscount:浏览次数
+>>Tags:标签，一般只有问题才有
+>>LastEditor* :一个Post是可以多人协同编辑，所以需要这个表项
+>>*count:一些计量指标，表明该Post的热门程度
+
+>PostHistory.xml
+>>PostHistoryTypeId
+
+>users.xml
+>>Reputation
+
+>Votes.xml
+>>voteTypeId
+
 
 
 ## 问题
