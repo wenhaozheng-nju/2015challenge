@@ -76,7 +76,7 @@ challenge
 >no.4 xml文件超过4GB，不好处理
 >>使用Python3.x看是否能够处理，或是用shell脚本对文件进行切割
 
-
+>no.5 缺失PostTags表，Tag信息无法利用
 
 
 
