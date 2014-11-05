@@ -41,7 +41,8 @@ challenge
 ## 可以挖掘的信息？
 1. 筛选最具价值的post（根据题主的reputation，badges，scores，answers的分数等等。。。）
 2. 类似推荐系统，挖掘不同post的相关性
-3. 补全标签…………
+3. 预测一个问题由哪些用户回答最合适,类似quora那样
+4. 补全标签…………
 
 ## 问题
 >no.1 Tags.xml 里的ExcerptPostId和WikiPostId是什么
@@ -71,6 +72,9 @@ challenge
 >no.3 数据集太大，大约20多G，不过有一个[网站](http://data.stackexchange.com/stackoverflow/query/edit/242001#resultSets "stackexchange")可以在线查询相应的信息
 >>可以用sql语句在线查询，或是编程采用json的方式
 >>>api的[文档](https://api.stackexchange.com/docs)
+
+>no.4 xml文件超过4GB，不好处理
+>>使用Python3.x看是否能够处理，或是用shell脚本对文件进行切割
 
 
 
