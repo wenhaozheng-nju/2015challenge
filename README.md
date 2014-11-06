@@ -44,6 +44,10 @@ challenge
 3. 预测一个问题由哪些用户回答最合适,类似quora那样
 4. 补全标签…………
 
+
+## 相关论文
+>[Predict Closed Questions on Stack Overflow](https://www.kaggle.com/c/predict-closed-questions-on-stack-overflow/details/prizes)
+
 ## 问题
 >no.1 Tags.xml 里的ExcerptPostId和WikiPostId是什么
 >>这里面把tag的解释写成了post的形式，ExcerptPostId就是显示的简略说明，WikiPostId是关于tag的详细解释
