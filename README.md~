@@ -81,7 +81,6 @@ challenge
 >>使用Python3.x看是否能够处理，或是用shell脚本对文件进行切割
 
 >no.5 缺失PostTags表，Tag信息无法利用
->>在Posts表里有一个Tags表项，存储的是所有Tag的信息，看错了当时
 
 
 
