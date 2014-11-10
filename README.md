@@ -44,6 +44,12 @@ challenge
 3. 预测一个问题由哪些用户回答最合适,类似quora那样
 4. 补全标签…………
 
+## 数据预处理
+1. 首先使用perl把大于1G的xml文件进行切割，因为Python解析xml语言所使用的模块无法承受大于4G的文件，需要把其加载到内存进行处理。
+2. 然后针对不同的xml文件提取有价值的表项，整理成txt的格式，这样方便读取。
+3. 最难提取的是post的正文，要把代码和描述进行区分。（嵌在描述里的代码虽然加了code标签，但是还是把其算作描述，否则提取的文本句式不连贯，代码也无法辨认）
+4. 
+
 
 ## 相关论文
 >[Predict Closed Questions on Stack Overflow](https://www.kaggle.com/c/predict-closed-questions-on-stack-overflow/details/prizes)
